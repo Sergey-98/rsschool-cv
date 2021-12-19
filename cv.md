@@ -21,3 +21,36 @@ I am 23 years old. I am a graduate of the Saratov State Technical University. Du
     + Stress resistance
     + Desire to learn all my life
     + Punctuality
+## Skills
+
+* Python (at university)
+* С++ (at university)
+* HTML
+* CSS
+* JS
+* Git, GitHub
+
+
+## Code Example
+### CODEWARS: 
+Write a function that converts any sentence into a V A P O R W A V E sentence. a V A P O R W A V E sentence converts all the letters into uppercase, and adds 2 spaces between each letter (or special character) to create this V A P O R W A V E effect.
+
+```
+function vaporcode(string) {
+  let arr = string.split('');
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] !== ' ') {
+      newArr.push(arr[i]);
+    }
+    else {
+      continue;
+    }
+    
+  }
+  for (let i = 0; i<newArr.length;i++) {
+    newArr[i] = newArr[i].toUpperCase();  
+  }
+  return(newArr.join('  '));
+  }
+```
