@@ -54,3 +54,17 @@ function vaporcode(string) {
   return(newArr.join('  '));
   }
 ```
+## Work Experience 
+*This CV...* 
+
+## Education
+* Saratov State Technical University
+    + Master’s degree in management in technical systems
+* Udemy
+    + HTML, CSS
+    + JS
+* HTML Academy
+
+## Languages
+* Russian - native speaker
+* English - A2
