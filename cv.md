@@ -21,8 +21,8 @@ I am 23 years old. I am a graduate of the Saratov State Technical University. Du
     + Stress resistance
     + Desire to learn all my life
     + Punctuality
-## Skills
 
+## Skills
 * Python (at university)
 * С++ (at university)
 * HTML
