@@ -1,0 +1,304 @@
+@font-face {
+  font-family: Rubik, sans-serif;
+  src: url("assets/fonts/Rubik.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+}
+
+.header {
+    width: 100%;
+    font-size: 120%;
+    background-color: #54625E;
+    color: #E4DDDB;
+}
+.progress {
+    margin-top: -7%;
+    margin-bottom: -7%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #ddd;
+}
+.skills-style {
+    list-style: none;
+}
+
+.skills {
+    text-align: center;
+    font-size: 100%;
+    color: rgb(22, 1, 1);
+}
+.python {
+    width: 20%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #b80860;
+}
+.c-plus {
+    width: 10%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    background-color: #b80860;
+}
+.html {
+    width: 70%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    background-color: #b80860;
+}
+.css {
+    width: 60%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    background-color: #b80860;
+}
+.js {
+    width: 55%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    background-color: #b80860;
+}
+.git {
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #b80860;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.name {
+    margin: 0;
+    padding: 0 10px;
+    font-family: "wide latin", sans-serif;
+    font-size: 170%;
+    line-height: 120%;
+    color: black;
+}
+
+.profession {
+    margin: 30px 0;
+    font-family: "fantasy", sans-serif;
+    font-size: 100%;
+    font-weight: 700;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    list-style: none;
+}
+.nav-link {
+    padding: 10px 20px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.nav-link:hover{
+    background-color: #353F49;
+    color: #D87647;
+}
+.nav-link:active{
+    background-color: #A12C3B;
+    color: #D8EBD7;
+}
+
+.main {
+    display: flex;
+    flex-wrap: no-wrap;
+    gap: 50px;
+}
+
+.section {
+    font-size: 120%;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.border {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    background-color: #32373E;
+    color: #EBEBD6;
+}
+
+.first {
+    position: relative;
+    bottom: 40px;
+    margin-bottom: 0;
+}
+
+.my-contact {
+    margin-top: -10px;
+    list-style: none;
+}
+
+.languages {
+    list-style: none; 
+}
+
+.strengths {
+    list-style: none;
+}
+.strengths-style {
+    padding-left: 30px;
+    background: url(assets/svg/pen-point.svg) no-repeat;
+    background-size: 16px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #FFB6C1;
+    color: #3D3050;
+}
+
+.right {
+    padding-right: 50px;
+}
+
+.photo {
+    margin: 20px 20px 10px 20px;
+    border-radius: 10%;
+    filter: grayscale(20%);
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.contact-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.phone {
+    margin-left: -5%;
+    padding-bottom: 3%;
+    padding-left: 30px;
+    background: url(assets/svg/phone.svg) no-repeat;
+    background-size: 16px;
+}
+.mail {
+    margin-left: -5%;
+    padding-bottom: 3%;
+    padding-left: 30px;
+    background: url(assets/svg/mail.svg) no-repeat;
+    background-size: 16px;
+}
+.main-title {
+    display: none;
+    padding-left: 30px;
+    padding-bottom: 3%;
+    background-size: 16px;
+}
+.github {
+    margin-left: -5%;
+    padding-bottom: 3%;
+    padding-left: 30px;
+    background: url(assets/svg/github-logo.svg) no-repeat;
+    background-size: 16px;
+}
+.telegram {
+    margin-left: -5%;
+    padding-bottom: 3%;
+    padding-left: 30px;
+    background: url(assets/svg/telegram.svg) no-repeat;
+    background-size: 16px;
+}
+.russian {
+    margin-left: -5%;
+    padding-bottom: 3%;
+    padding-left: 45px;
+    background: url(assets/svg/rus.svg) no-repeat;
+    background-size: 32px;
+}
+.english {
+    margin-left: -5%;
+    padding-bottom: 3%;
+    padding-left: 45px;
+    background: url(assets/svg/eng.svg) no-repeat;
+    background-size: 32px;
+}
+.none {
+    display: none;
+}
+.show-question {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    padding: 5px 20px;
+    width: fit-content;
+    border: 1px solid #1e1e1e;
+    border-radius: 10px;
+    font-size: 70%;
+    font-family: "fantasy", sans-serif;
+    font-weight: 400;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.education {
+    list-style: none;
+}
+
+.education-list {
+    padding-left: 30px;
+    background: url(assets/svg/check.svg) no-repeat;
+    background-size: 16px;
+}
+
+.f-github {
+    padding-top: 20px;
+}
+
+.rsschool {
+    padding-top: 0.5%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 120%;
+    background-color: #54625E;
+    color: #E4DDDB;
+}
+
+@media(max-width: 768px) {
+    .section{
+        width: 100%;
+    }
+}
